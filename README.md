@@ -5,7 +5,7 @@
 
 SDK for latest version of Telegram bots API (from July 31, 2024)
 
-Author: https://t.me/kuvardin
+Author: https://t.me/Fantommarcet
 
 ## Using Examples
 ### Installing
@@ -33,7 +33,7 @@ $token = '123456:AAAAAAAAAAAAAAA';
 $bot = new Kuvardin\TelegramBotsApi\Bot($client, $token);
 
 $chat_id = 123456789;
-$message_text = 'Hi!';
+$message_text = 'Да!';
 $request = $bot->sendMessage($chat_id, $message_text);
 
 try {
